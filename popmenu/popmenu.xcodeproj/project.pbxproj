@@ -14,6 +14,9 @@
 		2ABBD6352085D05600632F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABBD6332085D05600632F45 /* LaunchScreen.storyboard */; };
 		2ABBD6402085D05600632F45 /* popmenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBD63F2085D05600632F45 /* popmenuTests.swift */; };
 		2ABBD64B2085D05600632F45 /* popmenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBD64A2085D05600632F45 /* popmenuUITests.swift */; };
+		2ABBD65A2085D0F100632F45 /* AKModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBD6582085D0F100632F45 /* AKModalViewController.swift */; };
+		2ABBD65B2085D0F100632F45 /* AKPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBD6592085D0F100632F45 /* AKPopMenu.swift */; };
+		2ABBD65D2085D42200632F45 /* UIColor+additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBD65C2085D42200632F45 /* UIColor+additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2ABBD6462085D05600632F45 /* popmenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popmenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABBD64A2085D05600632F45 /* popmenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popmenuUITests.swift; sourceTree = "<group>"; };
 		2ABBD64C2085D05600632F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ABBD6582085D0F100632F45 /* AKModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKModalViewController.swift; sourceTree = "<group>"; };
+		2ABBD6592085D0F100632F45 /* AKPopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPopMenu.swift; sourceTree = "<group>"; };
+		2ABBD65C2085D42200632F45 /* UIColor+additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		2ABBD6292085D05500632F45 /* popmenu */ = {
 			isa = PBXGroup;
 			children = (
+				2ABBD65C2085D42200632F45 /* UIColor+additions.swift */,
+				2ABBD6582085D0F100632F45 /* AKModalViewController.swift */,
+				2ABBD6592085D0F100632F45 /* AKPopMenu.swift */,
 				2ABBD62A2085D05500632F45 /* AppDelegate.swift */,
 				2ABBD62C2085D05500632F45 /* ViewController.swift */,
 				2ABBD62E2085D05500632F45 /* Main.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABBD65A2085D0F100632F45 /* AKModalViewController.swift in Sources */,
 				2ABBD62D2085D05500632F45 /* ViewController.swift in Sources */,
+				2ABBD65B2085D0F100632F45 /* AKPopMenu.swift in Sources */,
 				2ABBD62B2085D05500632F45 /* AppDelegate.swift in Sources */,
+				2ABBD65D2085D42200632F45 /* UIColor+additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
